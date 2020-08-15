@@ -1,0 +1,92 @@
+
+body
+{
+  	margin: 0 ;
+    padding: 0;
+  	background-image: url("../img/first.jpg");
+  	background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+
+body,html
+{
+  height: 100%;
+
+}
+
+.mainForm
+{
+  background-color:#130f40;
+  color: #fff;
+  width:400px;
+  padding: 40px;
+  position: absolute;
+  left:50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+  text-align: center;
+
+}
+
+
+.mainForm h2
+{
+  width:200px;
+  text-transform: uppercase;
+  font-family: verdana;
+  font-size: 29px;
+  font-style: italic;
+  text-align: center;
+}
+
+
+.mainForm input[type=text], .mainForm input[type=password], .mainForm input[type=email]
+{
+  width:200px;
+  display: block;
+  text-align: center;
+  margin: 18px auto;
+  background: none;
+  padding: 14px;
+  color: yellow;
+  font-size: 20px;
+  border: none;
+  outline: none;
+  border:1px solid #ffff00;
+  border-radius: 40px;
+  transition: .25s all;
+}
+
+.mainForm input[type=submit]
+{
+
+  width:100px;
+  display: block;
+  text-align: center;
+  margin: 20px auto;
+  padding: 14px;
+  background: none;
+  font-weight: bold;
+  font-size: 20px;
+  color: yellow;
+  border: none;
+  outline: none;
+  border:1px solid #ffff00;
+  border-radius: 40px;
+}
+
+
+.mainForm input[type=text]:focus, .mainForm input[type=password]:focus, .mainForm input[type=email]:focus
+{
+   width:260px;
+   border: 1px solid #badc58;
+}
+
+.mainForm input[type=submit]
+{
+  width: 200px;
+  background:#badc58;
+  color: #fff;
+
+}
